@@ -1,1 +1,69 @@
 @charset "UTF-8";
+.button--sumple{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  margin-left: 30px;
+  padding: 0 15px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn:first-child{
+  margin-left: 0;
+}
+.btn--red{
+  color: #fff;
+  background-color: #fd0f0fd9;
+}
+.btn--blue{
+  color: #fff;
+  background-color: #170ffdd9;
+}
+.btn--green{
+  color: #000;
+  background-color: #0ffd0fd9;
+}
+.r--shadow{
+  box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851),0 5px 2px rgba(63, 5, 5, 0.851);
+}
+.b--shadow{
+  box-shadow: 0 5px 0 rgba(5,13,63,0.851),0 5px 2px rgba(5,13,63,0.851);
+}
+.g--shadow{
+  box-shadow: 0 5px 0 rgba(5,63,5,0.851),0 5px 2px rgba(5,63,5,0.851);
+}
+.push:active{
+  transform: translateY(5px);
+  box-shadow: 0 0 0;
+  border-bottom: none;
+}
+.r--style{
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+  transition: .5s;
+}
+.r--style:hover{
+  background-color: #fffbef;
+}
+.b--style{
+  color: #67c5ff;
+  border: 4px dotted #67c5ff;
+  transition: .5s;
+}
+.b--style:hover{
+  border-style: dashed;
+}
+.g--style{
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px dashed #67c5ff;
+  transition: .5s;
+}
+.g--style:hover{
+  color: #67c5ff;
+  background: #ffffff;
+}
